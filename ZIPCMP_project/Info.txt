@@ -1,0 +1,40 @@
+Note: This script will only work on windows and linux because it uses the zip command to compress the files/folders and zip command is only available on windows and linux and not on mac.
+
+// Steps:
+
+1. *first download and install latest version of python from python.org check the box to add python to path during installation.
+2. then move the files or folder You want to compress in this directory (optional as you can input path of The file in argument).
+3. then open the command prompt/terminal.
+4. navigate to this folder using cd command and type : python zipfiles.py {your file/folder path here} and press Enter (without the curly braces).
+cd command is used to navigate to a directory, for example if you want to navigate to the desktop, type cd Desktop and press enter.
+
+*if you want to compress multiple files/folders at once, type : python zipfiles.py {file1} {file2} {file3} and press Enter (without the curly braces)
+
+5. then you will get a zip file with the same name as your file/folder name.
+finally You will see a new file with .zip extension and same name will get created in the same directory.
+
+// Examples:
+-for compressing a file named "test.txt" in the same directory, type:
+
+python zipfiles.py test.txt
+python zipfiles.py test.txt test2.txt
+
+-for folder named "testfolder" in the same directory, type:
+
+python zipfiles.py testfolder
+python zipfiles.py testfolder testfolder2
+
+// features:
+
+1. It will compress the file/folder in the same directory.
+2. It will compress the file/folder with same name and .zip extension.
+3. You can also use this script to compress multiple files/folders at once.
+4. You can also use this script to compress files/folders from different directories.
+5. future updates will also add ability to read contents of and decompress files/folders.
+
+// Problems: 
+1. I have a folder with 1000s of files and I want to compress them all in one go and I don't want to do it manually.
+2. If you are passing a file name then you cant pass a folder name with th same run of the script and vice versa.
+
+// Bug
+1. scrtoprgswitcher not working properly or implemented properly which is used to switch between the script and manual program.

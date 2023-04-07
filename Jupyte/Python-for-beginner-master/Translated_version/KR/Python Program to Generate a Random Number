@@ -1,0 +1,6 @@
+# 0에서 9 사이의 난수를 생성하는 프로그램
+
+# random module 가져오기
+import random
+
+print(random.randint(0,9))
