@@ -4,7 +4,7 @@ import os
 
 video_id = "dQw4w9WgXcQ"
 video_url = "https://www.youtube.com/watch?v=" + video_id
-# video_url = input("Enter the URL of the video you want to download: ")
+# video_url = input("Enter URL you want to  download: ")
 dl_format = input(
     "What format do you want to download the video in? (a=audio/v=video) ")
 
